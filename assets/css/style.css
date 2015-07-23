@@ -718,3 +718,38 @@ button.btn-color.btn-lg {
 .form-padding {
 	padding: 20px 0;
 }
+
+/*Ajuste para imagen de parte superior*/
+
+.img-top{
+	position: relative;
+	margin: 15px 0 20px 0;
+	border-radius: 10px;
+	height: 555px;
+	max-height: 100%;
+	width: auto;
+}
+
+
+/* Codigo para que las 2 partes queden del mismo tamano*/
+/*#container {
+  overflow: hidden;
+  width: 100%;
+}
+
+#left-col {
+  float: left;
+  width: 50%;
+  background-color: orange;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+#right-col {
+  float: left;
+  width: 50%;
+  border-left: 1px solid black;
+  background-color: red;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+*/
