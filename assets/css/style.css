@@ -270,7 +270,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 /***** Top content *****/
 
 .inner-bg {
-    padding: 150px 0 250px 0;
+    padding: 100px 0 100px 0;
 }
 
 .top-content .text {
@@ -326,7 +326,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .features-box .features-box-icon {
     font-size: 80px;
-    color: #2ca464;
+    color: #8e44AD;
     line-height: 80px;
 }
 
@@ -364,7 +364,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	width: 60px;
 	height: 60px;
 	padding-top: 6px;
-	background: #2ca464;
+	background: #8e44AD;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
     font-size: 40px;
     color: #fff;
@@ -703,7 +703,9 @@ footer {
 
 /*Agregados*/
 /*Poner color del boton para */
-button.btn-color.btn-lg {
+button.btn-color.btn-lg,
+a.btn-color.btn-lg
+ {
 	background: #8e44AD;
 	color: white;
 	margin-top: 30px;
