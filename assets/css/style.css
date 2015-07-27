@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     color: #888;
-    line-height: 30px;
+    line-height: 25px;
     text-align: center;
 }
 
@@ -20,14 +20,15 @@ h1, h2 {
 	font-size: 38px;
     font-weight: 100;
     color: #555;
-    line-height: 50px;
+    line-height: 40px;
+    text-align: left;
 }
 
 h3 {
 	font-size: 22px;
     font-weight: 300;
     color: #555;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 img { max-width: 100%; }
@@ -85,7 +86,7 @@ img { max-width: 100%; }
 .section-container-image-bg, 
 .section-container-image-bg h2, 
 .section-container-image-bg h3 {
-	color: #fff;
+	color: gray;
 }
 
 .section-container-image-bg .divider-1 span {
@@ -726,6 +727,10 @@ input.btn-color.btn-lg
 /*Color de texto para */
 .text-color {
 	color: gray;
+}
+
+h4.text-color {
+	font-weight: 300;
 }
 
 /*padding para el formulario de preregistro*/
