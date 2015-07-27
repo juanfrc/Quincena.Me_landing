@@ -31,6 +31,18 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38498500-7', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
   </head>
 
   <body>
@@ -114,18 +126,17 @@
 
 
 
-                <form action="//formspree.io/info@quicena.me" method="POST" class="form-inline" role="form">
+                <form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form">
                   <div class="form-padding padding-top">
-                    <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control">
+                    <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control" required>
                   </div>
                   <div class="form-padding">
-                    <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control">
+                    <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control" required>
                   </div>
                   <div>
-                    <input type="text" name="Company_name" placeholder="Nombre de tú Compañía" class="subscribe-email">
+                    <input type="text" name="Company_name" placeholder="Nombre de tú Compañía" class="subscribe-email" required>
                   </div>
-                  <input type="hidden" name="_next" value="http://quincena.me" />
-                  <input type="hidden" name="_subject" value="Hay un nuevo Pre-Registro en Quincena.me">
+                  <input type='hidden' name='redirect_to' value="http://quincena.me"/>
                   <button type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
                 </form>
 
@@ -429,19 +440,17 @@
           		<h4>¡Los primeros 2 Meses van por nuestra cuenta!</h4>
 
 							<div class="subscribe wow fadeInUp col-sm-8 col-sm-offset-2">
-          			<form action="//formspree.io/info@quincena.me" method="POST" class="form-inline" role="form" >
+          			<form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form" >
                 	<div class="form-padding">
-                    <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control">
+                    <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control" required>
                   </div>                  
                   <div class="form-padding">
-                    <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control">
+                    <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control" required>
                   </div>
                   <div>
-                    <input type="text" name="company_name" placeholder="Nombre de tú Compañía" class="subscribe-email form-control" >
+                    <input type="text" name="company_name" placeholder="Nombre de tú Compañía" class="subscribe-email form-control" required >
                   </div>
-                  <input type="hidden" name="_next" value="http://quincena.me" />
-                  <input type="hidden" name="_subject" value="Hay un nuevo Pre-Registro en Quincena.Me" />
-
+                  <input type='hidden' name='redirect_to' value="http://quincena.me"/>
                   <button type="submit" value="Recibir Mis 2 Meses Gratis" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
                 </form>
 
