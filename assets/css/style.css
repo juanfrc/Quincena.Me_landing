@@ -720,7 +720,7 @@ input.btn-color.btn-lg
  {
 	background: #8e44AD;
 	color: white;
-	margin-top: 30px;
+	margin-top: 20px;
 	border-color: #8e44AD;
 }
 
@@ -735,11 +735,11 @@ h4.text-color {
 
 /*padding para el formulario de preregistro*/
 .form-padding {
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .padding-top {
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 /*Ajuste para imagen de parte superior*/
