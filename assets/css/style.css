@@ -10,7 +10,7 @@ body {
 strong { font-weight: 500; }
 
 a, a:hover, a:focus {
-	color: #2ca464;
+	color: #8e44AD;
 	text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
@@ -37,10 +37,10 @@ img { max-width: 100%; }
 	line-height: 32px;
 }
 
-.colored-text { color: #2ca464; }
+.colored-text { color: #8e44AD; }
 
-::-moz-selection { background: #2ca464; color: #fff; text-shadow: none; }
-::selection { background: #2ca464; color: #fff; text-shadow: none; }
+::-moz-selection { background: #8e44AD; color: #fff; text-shadow: none; }
+::selection { background: #8e44AD; color: #fff; text-shadow: none; }
 
 
 /***** Loader *****/
@@ -95,7 +95,7 @@ img { max-width: 100%; }
 
 .section-description {
 	margin-top: 60px;
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .section-description p {
@@ -116,7 +116,7 @@ img { max-width: 100%; }
 	height: 50px;
 	margin: 0 5px;
 	padding: 16px 20px 0 20px;
-	background: #2ca464;
+	background: #8e44AD;
 	font-size: 16px;
     font-weight: 300;
     line-height: 16px;
@@ -239,8 +239,8 @@ ul.navbar-nav {
 }
 
 ul.navbar-nav li a { background: none; color: #888; border-bottom: 1px solid transparent; }
-ul.navbar-nav li a:hover { background: none; color: #2ca464; border-bottom: 1px solid transparent; }
-ul.navbar-nav li a:focus { background: none; color: #2ca464; outline: 0; border-bottom: 1px solid transparent; }
+ul.navbar-nav li a:hover { background: none; color: #8e44AD; border-bottom: 1px solid transparent; }
+ul.navbar-nav li a:focus { background: none; color: #8e44AD; outline: 0; border-bottom: 1px solid transparent; }
 
 ul.navbar-nav li a.btn-link-2 {
 	height: auto;
@@ -272,13 +272,15 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .inner-bg {
     padding: 100px 0 100px 0;
+   	background-image: url("../img/backgrounds/1.jpg");
+		background-size: 100% auto;
 }
 
 .top-content .text {
-	color: #fff;
+	color: gray;
 }
 
-.top-content .text h1 { color: #fff; }
+.top-content .text h1 { color: gray; }
 
 .top-content .description {
 	margin: 20px 0 10px 0;
@@ -340,6 +342,8 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .more-features-container {
 	padding-bottom: 60px;
+	background-image: url("../img/backgrounds/2.jpg");
+	background-size: 100% auto;
 }
 
 .more-features-box {
@@ -365,18 +369,18 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	width: 60px;
 	height: 60px;
 	padding-top: 6px;
-	background: #8e44AD;
-	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    line-height: 40px;
-    text-align: center;
+  font-size: 40px;
+  color: #8e44AD;
+  line-height: 40px;
+  text-align: center;
 }
 
-.more-features-box-text h3 {
-	float: right;
-	width: 86%;
+.features-box h4 {
+	width: 90%;
 	margin-top: 0;
+	text-align: left;
+	font-weight: normal;
+	padding-top: 10px;
 }
 
 .more-features-box-text-description {
@@ -442,7 +446,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	left: 95px;
 	width: 32px;
 	height: 32px;
-	background: #2ca464;
+	background: #8e44AD;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	font-size: 24px;
 	color: #fff;
@@ -482,7 +486,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
     line-height: 54px;
 }
 .pricing-box-best .pricing-box-price {
-	background: #2ca464;
+	background: #8e44AD;
 	color: #fff;
 }
 
@@ -502,7 +506,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	width: 63px;
 	height: 63px;
 	padding-top: 5px;
-	background: #2ca464;
+	background: #8e44AD;
 	border: 3px solid #fff;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 }
@@ -521,7 +525,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	color: #888;
 }
 .pricing-box.pricing-box-best h3 {
-	background: #2ca464;
+	background: #8e44AD;
 	color: #fff;
 }
 
@@ -562,6 +566,11 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	padding-top: 30px;
 }
 
+.call-to-action-container {
+	background-image: url("../img/backgrounds/3.jpg");
+	background-size: 100% auto;
+}
+
 
 /***** About us *****/
 
@@ -589,7 +598,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	bottom: 10px;
 	left: 0;
 	padding: 3px 5px;
-	background: #2ca464;
+	background: #8e44AD;
 	font-size: 14px;
 	color: #fff;
 	line-height: 15px;
@@ -603,7 +612,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 }
 
 .about-us-box .about-us-social a { color: #ddd; }
-.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #2ca464; }
+.about-us-box .about-us-social a:hover, .about-us-box .about-us-social a:focus { color: #8e44AD; }
 
 
 /***** Testimonials *****/
@@ -637,7 +646,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	width: 42px;
 	height: 42px;
 	padding-top: 3px;
-	background: #2ca464;
+	background: #8e44AD;
 	-moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%;
 	font-size: 32px;
 	color: #fff;
@@ -678,15 +687,15 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
     -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
 }
 
-.testimonial-list .nav-tabs li a:hover { border: 0; background: #2ca464; }
-.testimonial-list .nav-tabs li.active a { background: #2ca464; }
+.testimonial-list .nav-tabs li a:hover { border: 0; background: #8e44AD; }
+.testimonial-list .nav-tabs li.active a { background: #8e44AD; }
 .testimonial-list .nav-tabs li.active a:focus { border: 0; }
 
 
 /***** Footer *****/
 
 footer {
-	padding: 40px 0 35px 0;
+	padding-bottom: 10px;
 }
 
 .footer-social {
@@ -695,7 +704,7 @@ footer {
 }
 
 .footer-social a { color: #ddd; }
-.footer-social a:hover, .footer-social a:focus { color: #2ca464; }
+.footer-social a:hover, .footer-social a:focus { color: #8e44AD; }
 
 .footer-copyright {
 	margin-top: 25px;
@@ -716,7 +725,7 @@ input.btn-color.btn-lg
 
 /*Color de texto para */
 .text-color {
-	color: White;
+	color: gray;
 }
 
 /*padding para el formulario de preregistro*/
