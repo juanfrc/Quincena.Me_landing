@@ -96,7 +96,7 @@ img { max-width: 100%; }
 
 .section-description {
 	margin-top: 60px;
-  padding-bottom: 10px;
+  padding-bottom: 35px;
 }
 
 .section-description p {
@@ -773,6 +773,10 @@ width: 100%;
 
 .subscribe h4 {
 	margin-top: -5px;
+}
+
+.always-beautiful h2 {
+	margin-top: 25px;
 }
 /* Codigo para que las 2 partes queden del mismo tamano*/
 /*#container {
