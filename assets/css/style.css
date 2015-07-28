@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 300;
     color: #888;
     line-height: 25px;
@@ -281,7 +281,10 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	color: gray;
 }
 
-.top-content .text h1 { color: gray; }
+.top-content .text h1,
+.section-description h1 { 
+	color: gray;
+	font-weight: 300 }
 
 .top-content .description {
 	margin: 20px 0 10px 0;
@@ -742,6 +745,9 @@ h4.text-color {
 	padding-top: 10px;
 }
 
+.padding-div-top {
+	padding-top: 30px;
+}
 /*Ajuste para imagen de parte superior*/
 .img-top{
 	position: relative;
@@ -757,7 +763,17 @@ h4.text-color {
 width: 100%;
 }
 
+.top-content .description h3 {
+	margin-top: -13px;
+}
 
+.subscribe h3 {
+	margin-top: 0;
+}
+
+.subscribe h4 {
+	margin-top: -5px;
+}
 /* Codigo para que las 2 partes queden del mismo tamano*/
 /*#container {
   overflow: hidden;
