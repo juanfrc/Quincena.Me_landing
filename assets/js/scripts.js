@@ -54,11 +54,41 @@ jQuery(document).ready(function() {
 	/*
 	    Modals
 	*/
-	$('.launch-modal').on('click', function(e){
-		e.preventDefault();
-		$( '#' + $(this).data('modal-id') ).modal();
-	});
-	
+	// $('.launch-modal').on('click', function(e){
+	// 	e.preventDefault();
+	// 	$( '#' + $(this).data('modal-id') ).modal();
+	// });
+
+		// $("#registration-form").submit(function(event) {
+  // 		$('#myModal').modal('toggle')
+  // 		alert( "Handler for .submit() called." );
+  // 		// event.preventDefault();
+		// });
+
+		// $( "#confirmation-button" ).click(function() {
+  // 			$("#registration-form").submit();
+		// });
+
+
+		$( "#registration-form").submit(function( event ) {
+			var self = this;
+			$('#myModal').modal('toggle')
+			event.preventDefault();
+			$( '#myModal' ).click(function() {
+				self.submit();
+			});
+		});
+
+		$( "#registration-form2" ).submit(function( event ) {
+			var self = this;
+			$('#myModal').modal('toggle')
+			event.preventDefault();
+			$( '#myModal' ).click(function() {
+				self.submit();
+			});
+		});
+
+
 	/*
 	    Subscription form
 	*/	
@@ -93,7 +123,6 @@ jQuery(document).ready(function() {
 	//         }
 	//     });
 	// });
-
 });
 
 
@@ -108,7 +137,8 @@ jQuery(window).load(function() {
 	/*
 		Hidden images
 	*/
-	$(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
+	// $(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
+
 

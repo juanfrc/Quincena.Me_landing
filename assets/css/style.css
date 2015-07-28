@@ -199,12 +199,12 @@ img { max-width: 100%; }
 .modal-footer button {
 	height: 50px;
 	margin: 0;
-    padding: 0 20px;
-	background: none;
+  padding: 0 20px;
+	background: #8e44AD;
 	border: 1px solid #888;
 	font-size: 16px;
     font-weight: 300;
-    color: #888;
+    color: white;
     -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
     text-shadow: none;
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;

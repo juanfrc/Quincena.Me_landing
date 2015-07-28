@@ -129,17 +129,16 @@
                   </div>
                 </form> -->
 
-                <form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form">
+                <form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form" id="registration-form">
                   <div class="form-padding padding-top">
                     <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control" required>
                   </div>
                   <div class="form-padding">
                     <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control" required>
                   </div>
-                  <input type='hidden' name='redirect_to' value="http://quincena.me"/>
-            
                   <input type="text" name="Company_name" placeholder="Nombre de tú Compañía" class="subscribe-email" required>
-                  <button type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
+                  <input type='hidden' name='redirect_to' value="http://quincena.me"/>
+                  <button id="modal-button" type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
                 </form>
 
 <!--                <form class="form-inline" role="form">                
@@ -150,6 +149,37 @@
   			</div>
 			</div>
 		</div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Gracias por Pre-Registrarte a QuincenaMe.</h4>
+          </div>
+          <div class="modal-body">
+            <p>Muy pronto nos pondremos en contacto para darte tus 2 meses de Prueba Gratis!.</p>
+          </div>
+          <div class="modal-footer">
+            <img src="assets/img/logo.png" alt="" class="pull-left">
+            <button id="confirmation-button" type="button" class="btn btn-color" data-dismiss="modal">Regresar a QuincenaMe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
       
       <!-- Features -->
     <div class="features-container section-container">
@@ -431,22 +461,18 @@
           		<h3 class="text-left">¡Los primeros 2 Meses van por nuestra cuenta!</h3>
 
 							<div class="subscribe wow fadeInUp col-sm-11">
-          			<form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form" >
-                	<div class="form-padding">
+          			<form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form" id="registration-form2">
+                  <div class="form-padding padding-top">
                     <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control" required>
-                  </div>                  
+                  </div>
                   <div class="form-padding">
                     <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control" required>
                   </div>
-                  <div>
-                    <input type="text" name="company_name" placeholder="Nombre de tú Compañía" class="subscribe-email form-control" required >
-                  </div>
+                  <input type="text" name="Company_name" placeholder="Nombre de tú Compañía" class="subscribe-email" required>
                   <input type='hidden' name='redirect_to' value="http://quincena.me"/>
-                  <button type="submit" value="Recibir Mis 2 Meses Gratis" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
+                  <button id="modal-button" type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
                 </form>
-
-                <div class="success-message"></div>
-                <div class="error-message"></div>
+                </form>
       				</div>
             </div>
           </div>
