@@ -27,11 +27,11 @@ jQuery(document).ready(function() {
     */    
     $('.top-content').backstretch([
                                    "assets/img/backgrounds/1.jpg"
-                                 , "assets/img/backgrounds/2.jpg"
-                                 , "assets/img/backgrounds/3.jpg"
+                                 // , "assets/img/backgrounds/2.jpg"
+                                 // , "assets/img/backgrounds/3.jpg"
                                  ], {duration: 3000, fade: 750});
     
-    $('.how-it-works-container').backstretch("assets/img/backgrounds/2.jpg");
+    $('.more-features-container').backstretch("assets/img/backgrounds/2.jpg");
     $('.call-to-action-container').backstretch("assets/img/backgrounds/3.jpg");
     $('.testimonials-container').backstretch("assets/img/backgrounds/1.jpg");
     

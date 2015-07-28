@@ -259,7 +259,7 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .navbar-brand {
 	width: 194px;
-	background: url(../img/QuincenaMe.png) left center no-repeat;
+	background: url(../img/logo.png) left center no-repeat;
 	text-indent: -99999px;
 	margin-top: 10px;
 }
@@ -273,8 +273,8 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 
 .inner-bg {
     padding: 100px 0 100px 0;
-   	background-image: url("../img/backgrounds/1.jpg");
-		background-size: 100% auto;
+/*   	background-image: url("../img/backgrounds/1.jpg");
+		background-size: 100% auto;*/
 }
 
 .top-content .text {
@@ -342,9 +342,9 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 /***** More features *****/
 
 .more-features-container {
-	padding-bottom: 60px;
-	background-image: url("../img/backgrounds/2.jpg");
-	background-size: 100% auto;
+	padding-bottom: 140px;
+/*	background-image: url("../img/backgrounds/2.jpg");
+	background-size: 100% auto;*/
 }
 
 .more-features-box {
