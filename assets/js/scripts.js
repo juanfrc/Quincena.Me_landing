@@ -46,6 +46,23 @@ jQuery(document).ready(function() {
     	$('.testimonials-container').backstretch("resize");
     });
     
+		$( "#registration-form").submit(function( event ) {
+			var self = this;
+			$('#myModal').modal('toggle')
+			event.preventDefault();
+			$( '#myModal' ).click(function() {
+				self.submit();
+			});
+		});
+
+		$( "#registration-form2" ).submit(function( event ) {
+			var self = this;
+			$('#myModal').modal('toggle')
+			event.preventDefault();
+			$( '#myModal' ).click(function() {
+				self.submit();
+			});
+		});
     /*
         Wow
     */
@@ -70,23 +87,6 @@ jQuery(document).ready(function() {
 		// });
 
 
-		$( "#registration-form").submit(function( event ) {
-			var self = this;
-			$('#myModal').modal('toggle')
-			event.preventDefault();
-			$( '#myModal' ).click(function() {
-				self.submit();
-			});
-		});
-
-		$( "#registration-form2" ).submit(function( event ) {
-			var self = this;
-			$('#myModal').modal('toggle')
-			event.preventDefault();
-			$( '#myModal' ).click(function() {
-				self.submit();
-			});
-		});
 
 
 	/*
