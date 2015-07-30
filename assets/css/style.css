@@ -778,6 +778,16 @@ width: 100%;
 .always-beautiful h2 {
 	margin-top: 25px;
 }
+
+/*PAra div del selector de precio*/
+.sidecar {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: #f00;
+ }
 /* Codigo para que las 2 partes queden del mismo tamano*/
 /*#container {
   overflow: hidden;

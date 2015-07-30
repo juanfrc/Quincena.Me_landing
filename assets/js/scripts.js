@@ -67,6 +67,35 @@ jQuery(document).ready(function() {
         Wow
     */
     new WOW().init();
+
+    var employee_cost = 10000
+    var base_cost = 50000
+    var employees = 1
+
+      // Slider
+   $(function() {
+    $( "#slider-range-min" ).slider({
+      range: "min",
+      value: 1,
+      min: 1,
+      max: 100,
+      slide: function( event, ui ) {
+         $( "#amount" ).val( "$" + ui.value );
+         var employees = ui.value
+         var cost = employee_cost * employees + base_cost;
+         $("#num_employees").html(employees)
+         $("#monthly-cost").html(cost)
+         if (employees == 1){
+            $("#employee").html("empleado")
+            $("#employee-square").text(employees + " empleado")
+         } else {
+            $("#employee").html("empleados")
+            $("#employee-square").text(employees + " empleados")     
+         }
+      }
+    });
+   $('.ui-slider-handle').append('<span class="sidecar"></span>'); 
+  });
     
 	/*
 	    Modals
