@@ -782,12 +782,62 @@ width: 100%;
 /*PAra div del selector de precio*/
 .sidecar {
   position: absolute;
+  top: -140px;
+  left: -100px;
+  width: 200px;
+  height: 120px;
+  background: #8e44AD;
+  color: white;
+  text-align: center;
+ }
+
+ .sidecar h5 {
+ 	padding-top: 25px;
+ }
+
+ .sidecar hr {
+ 	margin: 5px 0;
+ }
+
+/*.sidecar {
+  position: absolute;
   top: -40px;
   left: 0;
   width: 20px;
   height: 20px;
   background: #f00;
+ }*/
+
+ /*Sirve para ajustar el padiing en pricing*/
+ .pricing-row {
+ 	padding-bottom: 180px;
  }
+
+.alternate-color {
+ background: #D2B4DE;
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 20%;
+ width: 100%;
+ text-align: center;
+}
+.alternate-color h6 {
+	margin-top: 5px;
+}
+
+#slider-range-min {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.margin-div {
+	margin: 50px 0;
+}
+
+
+
+
 /* Codigo para que las 2 partes queden del mismo tamano*/
 /*#container {
   overflow: hidden;
