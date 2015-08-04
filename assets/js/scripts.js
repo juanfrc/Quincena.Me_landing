@@ -87,18 +87,18 @@ jQuery(document).ready(function() {
         $("#monthly-cost").html(cost)
         if (employees == 1){
             $("#employee").html("empleado")
-            $("#employee-square").text(employees + " empleado")
-            $("#employee-drag").text(employees + " empleado")
-            $("#employee-drag2").text(employees + " empleado")
+            $("#employee-square").text(employees + " persona")
+            $("#employee-drag").text(employees + " persona")
+            $("#employee-drag2").text(employees + " persona")
          } else {
             $("#employee").html("empleados")
-            $("#employee-square").text(employees + " empleados")     
-            $("#employee-drag").text(employees + " empleados")     
-            $("#employee-drag2").text(employees + " empleados")     
+            $("#employee-square").text(employees + " personas")     
+            $("#employee-drag").text(employees + " personas")     
+            $("#employee-drag2").text(employees + " personas")     
          }
       }
     });
-   $('.ui-slider-handle').append('<div class="sidecar"><div class="alternate-color"><h6>Arrastre para calcular el precio</h6></div><h5 id="employee-drag">1 Empleado</h5><hr><h6>$50.000 precio base</h6><h6>$10.000/empleado x <span id="employee-drag2">1 Empleado</span></h6></div>'); 
+   $('.ui-slider-handle').append('<div class="sidecar"><div class="alternate-color"><h6>Arrastra para calcular el precio</h6></div><h4 id="employee-drag">1 Empleado</h4><hr><h6>$50.000 precio base</h6><h6>$10.000/persona x <span id="employee-drag2">1 Persona</span></h6><div class="arrow-down"></div></div>'); 
   });
 
 
@@ -175,5 +175,3 @@ jQuery(window).load(function() {
 	// $(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });
-
-
