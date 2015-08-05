@@ -883,12 +883,15 @@ width: 100%;
 }
 
 /*para que no aparezca fondo blanco*/
-body .modal {
+body .modal,
+body .modal-content
+ {
 	background: transparent;
 }
 
-body .modal-body {
-   max-width: 800px;
+#videoModal .modal-body {
+   width: 1010px; 
+   margin-left: -200px;
 }
 
 
