@@ -94,11 +94,11 @@
             <div class="text col-sm-7 padding-div-top">
               <h1 class="wow fadeInLeftBig text-left">Pagar la Nómina de tu Compañía, Nunca había sido tan Simple</h1>
               <div class="description wow fadeInLeftBig">
-              	<h3 class="text-left">
+              	<h4 class="text-left">
                 	La Primera Plataforma de Pago de Nómina Automatizada para Pymes.
-              	</h3>
+              	</h4>
               </div>
-              <div class="subscribe wow fadeInUp container-fluid well col-sm-8 col-sm-offset-1">
+              <div class="subscribe wow fadeInUp container-fluid well col-sm-8">
 								<h4 class="text-color text-left">Muy Pronto estaremos al Aire</h3>
               	<h3 class="text-color text-left">Pre-Registrate para recibir 2 Meses Gratis de Prueba!</h4>
     <!-- Formulario de Mailchimp  -->
@@ -141,9 +141,6 @@
                   <input type='hidden' name='redirect_to' value="http://quincena.me"/>
                   <button id="modal-button" type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
                 </form>
-
-<!--                <form class="form-inline" role="form">                
-                </form> -->
         			</div>
       			</div>
     			</div>
@@ -152,11 +149,12 @@
 		</div>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<!--     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span></button>
             <h4 class="modal-title" id="myModalLabel">Gracias por Pre-Registrarte a QuincenaMe.</h4>
           </div>
           <div class="modal-body">
@@ -169,17 +167,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
 
       
       <!-- Features -->
@@ -235,13 +222,15 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6 more-features section-description wow fadeIn">
-            <h2>Sin necesidad de ser un Experto</h2>
+            <h2>Paga Tú Nómina en 2 Minutos!</h2>
             <div class="divider-1 wow fadeInUp"><span></span></div>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-6 more-features-box wow fadeInUp">
-            <div class="features-box">
+
+
+<!--             <div class="features-box">
             	<div class="more-features-box-text-icon">
             		<span aria-hidden="true" class="typcn typcn-input-checked"></span>
             	</div>
@@ -260,20 +249,39 @@
             		<span aria-hidden="true" class="typcn typcn-input-checked"></span>
             	</div>
             	<h4>No tienes que ser un contador o un experto en finanzas para manejar tú nómina.</h4>
-            </div>
-            
-            
+            </div> -->
+            <!-- <button id="modal-video-button" type="submit" class="btn-lg btn-color col-sm-12">Mira como funciona</button> -->
 
-  
+            <a href="#" class="col-sm-8 col-sm-offset-1" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/ARFDuHFVAjk">
+              <img src="assets/img/QuincenaMe.jpg" alt="" class="img-responsive img-video">
+            </a>
 
-
-
-
+            <a href="#" id="provisional" class="btn-lg btn-color col-sm-8 col-sm-offset-1" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/ARFDuHFVAjk"><span class="typcn typcn-media-play"></span>Mira como funciona</a>
           </div>
-        </div>
-    	</div>
-  	</div>
+          <!-- <div class="col-sm-6 video-features-box-icon">
+            <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/ARFDuHFVAjk"><div class="features-box-icon">
+              <span aria-hidden="true" class="typcn typcn-media-play"></span>
+            </div></a>
+          </div> -->
 
+        </div>
+      </div>
+    </div>
+
+  <!-- Modal for Youtube Video-->
+
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <div>
+                    <iframe width="100%" height="350" src=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
       
       <!-- Always beautiful -->
     <div class="always-beautiful-container section-container">
@@ -388,14 +396,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 pricing section-description wow fadeIn">
-                    <h2 class="text-center">Precio Mensual, Simple</h2>
+                    <h2 class="text-center">Precio Mensual</h2>
                     <div class="divider-1 wow fadeInUp"><span></span></div>
                 </div>
             </div>
 
           <div class="row pricing-row text-center col-sm-offset-4">
 <!--             <h3><span class="colored-text">$50.000</span> por empresa + <span class="colored-text">$10.000</span> por persona</h3>  
- -->            <h2 class='colored-text'>$50.000</h2><h5 class="text-left">por <br>empresa </h5> <h2> + <span class="colored-text">$10.000 </span></h2><h5 class="text-left"> por<br>persona</h5>
+ -->           
+        
+          <h2 class='colored-text bold'><strong>$50.000 </strong></h2><h5 class="text-left"> por<br>empresa </h5> <h2><strong> + <span class="colored-text">$10.000 </span></span></h2><h5 class="text-left"> por<br>persona</h5>
           </div>
            
           <div id="slider-range-min"></div>
