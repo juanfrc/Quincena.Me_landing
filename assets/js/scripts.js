@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
 			event.preventDefault();
 			var self = this;
 			$('#myModal').modal('toggle')
-			$( '#myModal' ).click(function() {
+			$(document).click(function() {
 				self.submit();
 			});
 		});
@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
 			event.preventDefault();
 			var self = this;
 			$('#myModal').modal('toggle')
-			$( '#myModal' ).click(function() {
+			$(document).click(function() {
 				self.submit();
 			});
 		});
@@ -77,7 +77,8 @@ jQuery(document).ready(function() {
               videoSRC = $(this).attr("data-theVideo"),
               videoSRCauto = videoSRC + "?autoplay=1";
           $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function () {
+          // $(theModal + ' button.close').click(function () {
+          $(theModal).on('hidden.bs.modal', function () {
               $(theModal + ' iframe').attr('src', videoSRC);
           });
       });
@@ -127,10 +128,10 @@ jQuery(document).ready(function() {
 	/*
 	    Modals
 	*/
-	// $('.launch-modal').on('click', function(e){
-	// 	e.preventDefault();
-	// 	$( '#' + $(this).data('modal-id') ).modal();
-	// });
+	$('.launch-modal').on('click', function(e){
+		e.preventDefault();
+		$( '#' + $(this).data('modal-id') ).modal();
+	});
 
 		// $("#registration-form").submit(function(event) {
   // 		$('#myModal').modal('toggle')
@@ -195,6 +196,6 @@ jQuery(window).load(function() {
 	/*
 		Hidden images
 	*/
-	// $(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
+	$(".modal-body img, .testimonial-image img").attr("style", "width: auto !important; height: auto !important;");
 	
 });

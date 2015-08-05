@@ -49,7 +49,8 @@
     <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
       for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
         mixpanel.init("359cdfa93fc0ebc845ddcbdf8f1ff5eb");
-    </script><!-- end Mixpanel -->
+    </script>
+    <!-- end Mixpanel -->
   </head>
 
   <body>
@@ -85,6 +86,7 @@
 				</div>
 			</div>
 		</nav>
+
 			
     <!-- Top content -->
     <div class="top-content">  	
@@ -99,8 +101,8 @@
               	</h4>
               </div>
               <div class="subscribe wow fadeInUp container-fluid well col-sm-8">
-								<h4 class="text-color text-left">Muy Pronto estaremos al Aire</h3>
-              	<h3 class="text-color text-left">Pre-Registrate para recibir 2 Meses Gratis de Prueba!</h4>
+								<h4 class="text-color text-left">Muy Pronto estaremos al Aire</h4>
+              	<h3 class="text-color text-left">Pre-Registrate para recibir 2 Meses Gratis de Prueba!</h3>
     <!-- Formulario de Mailchimp  -->
                 <!-- <form action="http://Quincena.us11.list-manage2.com/subscribe/post" method="POST" class='form-inline' role='form'>
                   <input type="hidden" name="u" value="9fe29b56d3d427891c156d462">
@@ -148,9 +150,9 @@
 			</div>
 		</div>
 
+
     <!-- Modal -->
-<!--     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -256,32 +258,29 @@
               <img src="assets/img/QuincenaMe.jpg" alt="" class="img-responsive img-video">
             </a>
 
-            <a href="#" id="provisional" class="btn-lg btn-color col-sm-8 col-sm-offset-1" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/ARFDuHFVAjk"><span class="typcn typcn-media-play"></span>Mira como funciona</a>
+            <a href="" class="btn-lg btn-color col-sm-8 col-sm-offset-1" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/ARFDuHFVAjk"><span class="typcn typcn-media-play"></span>Mira como funciona</a>
           </div>
-          <!-- <div class="col-sm-6 video-features-box-icon">
-            <a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/ARFDuHFVAjk"><div class="features-box-icon">
-              <span aria-hidden="true" class="typcn typcn-media-play"></span>
-            </div></a>
-          </div> -->
-
         </div>
       </div>
     </div>
 
   <!-- Modal for Youtube Video-->
 
-<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
+    <div id="modal-container col-sm-8">
+      <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
             <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <div>
-                    <iframe width="100%" height="350" src=""></iframe>
-                </div>
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <div>
+                <iframe width="100%" height="350" src=""></iframe>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+
       
       <!-- Always beautiful -->
     <div class="always-beautiful-container section-container">
@@ -337,371 +336,70 @@
 
       </div>
     </div>
-      
-      <!-- How it works -->
-      <!-- <div class="how-it-works-container section-container section-container-image-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 how-it-works section-description wow fadeIn">
-                    <h2>Ready in 4 steps</h2>
-                    <div class="divider-1 wow fadeInUp"><span></span></div>
-                </div>
-            </div>
-            <div class="row">
-              	<div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
-                	<div class="how-it-works-box-icon">
-                		<span aria-hidden="true" class="typcn typcn-pencil"></span>
-                		<span aria-hidden="true" class="how-it-works-step">1</span>
-                	</div>
-                    <h3>Sign up</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                  </div>
-                  <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
-                	<div class="how-it-works-box-icon">
-                		<span aria-hidden="true" class="typcn typcn-ticket"></span>
-                		<span aria-hidden="true" class="how-it-works-step">2</span>
-                	</div>
-                    <h3>Make payment</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-sm-4 col-sm-offset-1 how-it-works-box wow fadeInUp">
-                	<div class="how-it-works-box-icon">
-                		<span aria-hidden="true" class="typcn typcn-key-outline"></span>
-                		<span aria-hidden="true" class="how-it-works-step">3</span>
-                	</div>
-                    <h3>Log in</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                  </div>
-                  <div class="col-sm-4 col-sm-offset-2 how-it-works-box wow fadeInDown">
-                	<div class="how-it-works-box-icon">
-                		<span aria-hidden="true" class="typcn typcn-thumbs-up"></span>
-                		<span aria-hidden="true" class="how-it-works-step">4</span>
-                	</div>
-                    <h3>Start using it</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-                  </div>
-            </div>
-            <div class="row">
-            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
-                      <a class="btn btn-link-1 scroll-link" href="#pricing">Our prices</a>
-            	</div>
-            </div>
-        </div>
-      </div> -->
 
 	<!-- Pricing -->
-      <div class="pricing-container section-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 pricing section-description wow fadeIn">
-                    <h2 class="text-center">Precio Mensual</h2>
-                    <div class="divider-1 wow fadeInUp"><span></span></div>
-                </div>
-            </div>
-
-          <div class="row pricing-row text-center col-sm-offset-4">
-<!--             <h3><span class="colored-text">$50.000</span> por empresa + <span class="colored-text">$10.000</span> por persona</h3>  
- -->           
-        
-          <h2 class='colored-text bold'><strong>$50.000 </strong></h2><h5 class="text-left"> por<br>empresa </h5> <h2><strong> + <span class="colored-text">$10.000 </span></span></h2><h5 class="text-left"> por<br>persona</h5>
-          </div>
-           
-          <div id="slider-range-min"></div>
-     
-          <div class="margin-div">
-             <h3>Con <span id='num_employees'>1</span>
-              <span id="employee">persona en tu compañia</span>, el costo mensual es de $<span id='monthly-cost'>60.000</span><br>Para una nómina al estilo QuincenaMe
-             </h3>
-             <h5>Ni un peso más de costos o recargos extras</h5>
-          </div>
-        </div>
-      </div>
-
-            <!-- <div class="row">
-              	<div class="col-sm-4 pricing-box wow fadeInUp">
-              		<div class="pricing-box-inner">
-	                	<div class="pricing-box-price"><span>$ </span><strong>12</strong><span> / month</span></div>
-	                    <h3>Basic</h3>
-	                    <h4>Freelancer</h4>
-	                    <div class="pricing-box-features">
-	                    	<ul>
-	                    		<li>1000 video lessons</li>
-	                    		<li>Normal speed</li>
-	                    		<li>500 solved exercises</li>
-	                    		<li>300MB to save your code</li>
-	                    		<li>750 hours of support</li>
-	                    	</ul>
-	                    </div>
-	                    <div class="pricing-box-sign-up">
-	                    	<a class="btn btn-link-1" href="#">Buy now</a>
-	                    </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
-                  	<div class="pricing-box-inner">
-	                	<div class="pricing-box-price">
-	                		<span>$ </span><strong>35</strong><span> / month</span>
-	                		<div class="pricing-box-icon">
-		                		<span aria-hidden="true" class="typcn typcn-star"></span>
-		                	</div>
-	                	</div>
-	                    <h3>Ultimate</h3>
-	                    <h4>Best value</h4>
-	                    <div class="pricing-box-features">
-	                    	<ul>
-	                    		<li>3000 video lessons</li>
-	                    		<li>2x speed</li>
-	                    		<li>2000 solved exercises</li>
-	                    		<li>500MB to save your code</li>
-	                    		<li>900 hours of support</li>
-	                    	</ul>
-	                    </div>
-	                    <div class="pricing-box-sign-up">
-	                    	<a class="btn btn-link-1" href="#">Buy now</a>
-	                    </div>
-	                </div>
-                  </div>
-                  <div class="col-sm-4 pricing-box wow fadeInUp">
-                  	<div class="pricing-box-inner">
-	                	<div class="pricing-box-price"><span>$ </span><strong>75</strong><span> / month</span></div>
-	                    <h3>Platinum</h3>
-	                    <h4>Big company</h4>
-	                    <div class="pricing-box-features">
-	                    	<ul>
-	                    		<li>5000 video lessons</li>
-	                    		<li>4x speed</li>
-	                    		<li>4000 solved exercises</li>
-	                    		<li>900MB to save your code</li>
-	                    		<li>Unlimited hours of support</li>
-	                    	</ul>
-	                    </div>
-	                    <div class="pricing-box-sign-up">
-	                    	<a class="btn btn-link-1" href="#">Buy now</a>
-	                    </div>
-	                </div>
-                  </div>
-            </div>
-        </div>
-      </div> -->
-      
-      <!-- Call to action -->
-      <div class="call-to-action-container section-container section-container-image-bg">
-        <div class="container">
+    <div class="pricing-container section-container">
+      <div class="container">
           <div class="row">
-            <div class="col-sm-6 call-to-action section-description wow fadeInLeftBig">
-          		<h3 class="text-left">Muy Pronto estaremos al Aire</h3>
-              <h1>Pre-Registrate para Probar QuincenaMe Gratis!</h1>
-          		<h3 class="text-left">¡Los primeros 2 Meses van por nuestra cuenta!</h3>
-
-							<div class="subscribe wow fadeInUp col-sm-11">
-          			<form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form" id="registration-form2">
-                  <div class="form-padding padding-top">
-                    <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control" required>
-                  </div>
-                  <div class="form-padding">
-                    <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control" required>
-                  </div>
-                  <input type="text" name="Company_name" placeholder="Nombre de tú Compañía" class="subscribe-email" required>
-                  <input type='hidden' name='redirect_to' value="http://quincena.me"/>
-                  <button id="modal-button" type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
-                </form>
-                </form>
-      				</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- About us -->
-      <!-- <div class="about-us-container section-container">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 about-us section-description wow fadeIn">
-                    <h2>About us</h2>
-                    <div class="divider-1 wow fadeInUp"><span></span></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 about-us-box wow fadeInUp">
-	                <div class="about-us-photo">
-	                	<img src="assets/img/about/1.jpg" alt="" data-at2x="assets/img/about/1.jpg">
-	                	<div class="about-us-role">Marketing</div>
-	                </div>
-                    <h3>John Doe</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                    <div class="about-us-social">
-	                	<a href="#"><span class="typcn typcn-social-facebook"></span></a>
-	                	<a href="#"><span class="typcn typcn-social-dribbble"></span></a>
-	                    <a href="#"><span class="typcn typcn-social-twitter"></span></a>
-	                </div>
-                </div>
-                <div class="col-sm-4 about-us-box wow fadeInDown">
-	                <div class="about-us-photo">
-	                	<img src="assets/img/about/2.jpg" alt="" data-at2x="assets/img/about/2.jpg">
-	                	<div class="about-us-role">Designer</div>
-	                </div>
-                    <h3>Tim Brown</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                    <div class="about-us-social">
-	                	<a href="#"><span class="typcn typcn-social-facebook"></span></a>
-	                	<a href="#"><span class="typcn typcn-social-dribbble"></span></a>
-	                    <a href="#"><span class="typcn typcn-social-twitter"></span></a>
-	                </div>
-                </div>
-                <div class="col-sm-4 about-us-box wow fadeInUp">
-	                <div class="about-us-photo">
-	                	<img src="assets/img/about/3.jpg" alt="" data-at2x="assets/img/about/3.jpg">
-	                	<div class="about-us-role">Developer</div>
-	                </div>
-                    <h3>Sarah Red</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-                    <div class="about-us-social">
-	                	<a href="#"><span class="typcn typcn-social-facebook"></span></a>
-	                	<a href="#"><span class="typcn typcn-social-dribbble"></span></a>
-	                    <a href="#"><span class="typcn typcn-social-twitter"></span></a>
-	                </div>
-                </div>
-            </div>
-        </div>
-      </div>
- -->
-      <!-- Testimonials -->
-<!--       <div class="testimonials-container section-container section-container-image-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 testimonials section-description wow fadeIn">
-                    <h2>Testimonials</h2>
-                    <div class="divider-1 wow fadeInUp"><span></span></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
-                	<div role="tabpanel">
-                		<div class="tab-content">
-                			<div role="tabpanel" class="tab-pane fade in active" id="tab1">
-                				<div class="testimonial-image">
-                					<img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
-                					<div class="testimonial-icon">
-                						<span aria-hidden="true" class="typcn typcn-pin"></span>
-                					</div>
-                				</div>
-                				<div class="testimonial-text">
-	                                <p>
-	                                	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                                	Lorem ipsum dolor sit amet, consectetur..."<br>
-	                                	<a href="#">Lorem Ipsum, dolor.co.uk</a>
-	                                </p>
-                                </div>
-                			</div>
-                			<div role="tabpanel" class="tab-pane fade" id="tab2">
-                				<div class="testimonial-image">
-                					<img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
-                					<div class="testimonial-icon">
-                						<span aria-hidden="true" class="typcn typcn-pin"></span>
-                					</div>
-                				</div>
-                				<div class="testimonial-text">
-	                                <p>
-	                                	"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
-	                                	ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-	                                	lobortis nisl ut aliquip ex ea commodo consequat..."<br>
-	                                	<a href="#">Minim Veniam, nostrud.com</a>
-	                                </p>
-                                </div>
-                			</div>
-                			<div role="tabpanel" class="tab-pane fade" id="tab3">
-                				<div class="testimonial-image">
-                					<img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
-                					<div class="testimonial-icon">
-                						<span aria-hidden="true" class="typcn typcn-pin"></span>
-                					</div>
-                				</div>
-                				<div class="testimonial-text">
-	                                <p>
-	                                	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                                	Lorem ipsum dolor sit amet, consectetur..."<br>
-	                                	<a href="#">Lorem Ipsum, dolor.co.uk</a>
-	                                </p>
-                                </div>
-                			</div>
-                			<div role="tabpanel" class="tab-pane fade" id="tab4">
-                				<div class="testimonial-image">
-                					<img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">
-                					<div class="testimonial-icon">
-                						<span aria-hidden="true" class="typcn typcn-pin"></span>
-                					</div>
-                				</div>
-                				<div class="testimonial-text">
-	                                <p>
-	                                	"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip 
-	                                	ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-	                                	lobortis nisl ut aliquip ex ea commodo consequat..."<br>
-	                                	<a href="#">Minim Veniam, nostrud.com</a>
-	                                </p>
-                                </div>
-                			</div>
-                		</div>
-                		<!-- Nav tabs -->
-                		<!-- <ul class="nav nav-tabs" role="tablist">
-                			<li role="presentation" class="active">
-                				<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
-                			</li>
-                			<li role="presentation">
-                				<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
-                			</li>
-                			<li role="presentation">
-                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
-                			</li>
-                			<li role="presentation">
-                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
-                			</li>
-                		</ul>
-                	</div>
-                </div>
-            </div>
-        </div>
-      </div> -->
-
-      <!-- Footer -->
-     <!--  <footer>
-        <div class="container">
-        	<div class="row">
-                  <div class="col-sm-12 footer-social">
-                  	<a href="#"><span class="typcn typcn-social-facebook"></span></a>
-                  	<a href="#"><span class="typcn typcn-social-dribbble"></span></a>
-                  	<a href="#"><span class="typcn typcn-social-twitter"></span></a>
-                  	<a href="#"><span class="typcn typcn-social-google-plus"></span></a>
-                  	<a href="#"><span class="typcn typcn-social-instagram"></span></a>
-                  	<a href="#"><span class="typcn typcn-social-pinterest"></span></a>
-                  </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12 footer-copyright">
-                <img src="assets/img/logo.png" alt="QuincenaMe"> 
+              <div class="col-sm-12 pricing section-description wow fadeIn">
+                  <h2 class="text-center">Precio Mensual</h2>
+                  <div class="divider-1 wow fadeInUp"><span></span></div>
               </div>
-            </div>
           </div>
-        </footer>
-       -->
 
-      <!-- Javascript -->
-      <script src="assets/js/jquery-1.11.1.min.js"></script>
-      <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-      <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
-      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-      <script src="assets/js/jquery.backstretch.min.js"></script>
-      <script src="assets/js/wow.min.js"></script>
-      <script src="assets/js/retina-1.1.0.min.js"></script>
-      <script src="assets/js/scripts.js"></script>
+        <div class="row pricing-row text-center col-sm-offset-4">
+          <h2 class='colored-text bold'><strong>$50.000 </strong></h2><h5 class="text-left"> por<br>empresa </h5> <h2><strong> + <span class="colored-text">$10.000 </span></span></strong></h2><h5 class="text-left"> por<br>persona</h5>
+        </div>
+         
+        <div id="slider-range-min"></div>
+   
+        <div class="margin-div">
+           <h3>Con <span id='num_employees'>1</span>
+            <span id="employee">persona en tu compañia</span>, el costo mensual es de $<span id='monthly-cost'>60.000</span><br>Para una nómina al estilo QuincenaMe
+           </h3>
+           <h5>Ni un peso más de costos o recargos extras</h5>
+        </div>
+      </div>
+    </div>
       
-      <!--[if lt IE 10]>
-          <script src="assets/js/placeholder.js"></script>
-      <![endif]-->
+    <!-- Call to action -->
+    <div class="call-to-action-container section-container section-container-image-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 call-to-action section-description wow fadeInLeftBig">
+        		<h3 class="text-left">Muy Pronto estaremos al Aire</h3>
+            <h1>Pre-Registrate para Probar QuincenaMe Gratis!</h1>
+        		<h3 class="text-left">¡Los primeros 2 Meses van por nuestra cuenta!</h3>
 
+						<div class="subscribe wow fadeInUp col-sm-11">
+        			<form action="https://getsimpleform.com/messages?form_api_token=ce65a97ab5b73768f69499b034b5a8cd" method="POST" class="form-inline" role="form" id="registration-form2">
+                <div class="form-padding padding-top">
+                  <input type="text" name="Name" placeholder="Tú Nombre" class="subscribe-email form-control" required>
+                </div>
+                <div class="form-padding">
+                  <input type="email" name="email" placeholder="Correo electrónico laboral" class="subscribe-email form-control" required>
+                </div>
+                <input type="text" name="Company_name" placeholder="Nombre de tú Compañía" class="subscribe-email" required>
+                <input type='hidden' name='redirect_to' value="http://quincena.me"/>
+                <button id="modal-button" type="submit" class="btn-lg btn-color col-sm-12">Recibir Mis 2 Meses Gratis</button>
+              </form>
+              </form>
+    				</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript 
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    -->
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/retina-1.1.0.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
   </body>
 
 </html>

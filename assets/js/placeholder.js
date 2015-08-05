@@ -1,6 +1,6 @@
 
-$(document).ready(function(){
+// $(document).ready(function(){
 	
-	$(".subscribe-email").val("Enter your email...");
+// 	$(".subscribe-email").val("Enter your email...");
 	
-});
+// });
