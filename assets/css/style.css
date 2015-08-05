@@ -884,7 +884,7 @@ width: 100%;
 
 /*para que no aparezca fondo blanco*/
 body .modal,
-body .modal-content
+#videoModal .modal-content
  {
 	background: transparent;
 }

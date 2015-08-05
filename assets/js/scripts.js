@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
 			event.preventDefault();
 			var self = this;
 			$('#myModal').modal('toggle')
-			$(document).click(function() {
+      $("#myModal").on('hidden.bs.modal', function () {
 				self.submit();
 			});
 		});
@@ -60,7 +60,7 @@ jQuery(document).ready(function() {
 			event.preventDefault();
 			var self = this;
 			$('#myModal').modal('toggle')
-			$(document).click(function() {
+      $("#myModal").on('hidden.bs.modal', function () {
 				self.submit();
 			});
 		});
