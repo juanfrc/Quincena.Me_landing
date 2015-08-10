@@ -894,4 +894,14 @@ body .modal,
    margin-left: -200px;
 }
 
+/* ajustar arrow para definir*/
+.arrow {
+	float: left;
+	position: relative;
+	top: 90px;
+	left: 20px;
+	z-index: 1;
+}
+
+
 
