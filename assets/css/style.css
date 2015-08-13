@@ -264,6 +264,13 @@ ul.navbar-nav li a.btn-link-2:active:focus { outline: 0; opacity: 1; background:
 	margin-top: 10px;
 }
 
+/*.navbar-brand {
+	width: 97px;
+	background: url(../img/logo.png) left center no-repeat;
+	text-indent: -99999px;
+}*/
+
+
 .navbar-toggle .icon-bar {
 	background: #444;
 }
